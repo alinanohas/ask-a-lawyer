@@ -1,0 +1,113 @@
+@font-face {
+	font-family: 'Metropolis';
+	src: url('../fonts/metropolis.thin.eot');
+	src: local('вє'), url('../fonts/metropolis.thin.woff') format('woff'), url('../fonts/metropolis.thin.ttf') format('truetype'), url('../fonts/metropolis.thin.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("../fonts/Metropolis-Regular.eot");
+  src: local("вє"), url("../fonts/Metropolis-Regular.woff") format("woff"),
+    url("../fonts/Metropolis-Regular.ttf") format("truetype"),
+    url("../fonts/Metropolis-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("../fonts/Metropolis-Medium.eot");
+  src: local("вє"), url("../fonts/Metropolis-Medium.woff") format("woff"),
+    url("../fonts/Metropolis-Medium.ttf") format("truetype"),
+    url("../fonts/Metropolis-Medium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+$color_1: #ffffff;
+$color_2: #f2f5fc;
+$color_3: #0161f3;
+$color_4: #69707a;
+$color_5: #CBCFD2;
+$color_6: #F8F8F8;
+$main_font: "Metropolis";
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  font-family: $main_font;
+  font-weight: 300;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+//   color: inherit;
+}
+a:hover {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
