@@ -307,6 +307,8 @@ h2 {
   border-radius: 5px;
   color: $color_1;
   gap: 5px;
+  font-size: 16px;
+
 }
 
 .transpbtn {
@@ -314,6 +316,8 @@ h2 {
   border-radius: 5px;
   color: $color_3;
   background-color: transparent;
+  font-size: 16px;
+
   &:hover {
     background: $color_3;
     color: $color_1;
