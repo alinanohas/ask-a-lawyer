@@ -491,6 +491,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  padding: 0 10px;
 }
 .recommend-block_btn {
   width: 150px;
