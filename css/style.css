@@ -356,6 +356,9 @@ h2 {
 .findanswer-block {
   padding-bottom: 110px;
 }
+.findanswer-block__content h2 {
+  padding: 0 15px;
+}
 .findanswer-block__cards {
   width: 100%;
   display: flex;
@@ -373,6 +376,7 @@ h2 {
   border-radius: 5px;
   color: #ffffff;
   gap: 5px;
+  font-size: 16px;
 }
 
 .transpbtn {
@@ -380,6 +384,7 @@ h2 {
   border-radius: 5px;
   color: #0161f3;
   background-color: transparent;
+  font-size: 16px;
 }
 .transpbtn:hover {
   background: #0161f3;
