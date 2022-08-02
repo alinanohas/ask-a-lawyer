@@ -286,7 +286,11 @@ h2 {
 
 .findanswer-block {
   padding-bottom: 110px;
-
+&__content{
+    h2{
+        padding: 0 15px;
+    }
+}
   &__cards {
     width: 100%;
     display: flex;
@@ -308,7 +312,6 @@ h2 {
   color: $color_1;
   gap: 5px;
   font-size: 16px;
-
 }
 
 .transpbtn {
@@ -317,7 +320,6 @@ h2 {
   color: $color_3;
   background-color: transparent;
   font-size: 16px;
-
   &:hover {
     background: $color_3;
     color: $color_1;
@@ -439,7 +441,6 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 0 10px;
   }
 
   &_btn {
